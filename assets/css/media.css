@@ -1,0 +1,113 @@
+@media (max-width: 989px) {
+    h1,h2,h3 {
+        font-size: 20px !important;
+    }
+    h4 {
+        font-size: 16px !important;
+    }
+    h5, h6{
+        font-size: 15px !important;
+    }
+    p , a , li , button {
+        font-size: 11px !important;
+    }
+    .nav-toggler{
+        display: block !important;
+    }
+    .navbar {
+        padding: 0px;
+    }
+    .navbar .brand-name{
+        margin: 0px;
+    }
+    .navbar .brand-name , .navbar .brand-name img {
+        width: 100px;
+        height: 100px;
+    }
+    .navbar-nav{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        overflow-y: scroll;
+        top: 126px;
+        background-color: #206A5D;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        align-items: center;
+        text-align: center;
+        transition: all .5s linear;
+        right: -100%;
+        z-index: 9999;
+    }
+    .navbar-nav li {
+        margin: 0px 0px 20px 0px!important;
+        width: 100%;
+        border: none !important;
+    }
+    .navbar .navbar-nav .nav-item.dropdown:hover .list {
+        display: block;
+    }
+    .tickets .ticket-box::after, .tickets .ticket-box::before{
+        display: none;
+    }
+    .navbar .navbar-nav .nav-item .list{
+        position: relative;
+        opacity: 1;
+        visibility: visible;
+        top: 0;
+        box-shadow: 0px 0px 0px transparent;
+        display: none;
+    }
+    .nav .content .navbar-nav .nav-item .nav-link{
+        color: #fff;
+    }
+    .acitve-nav{
+        right: 0px;
+    }
+    header{
+        padding: 40px 0px;
+    }
+    header::before ,
+    .sub-header::before{
+        height: 43px;
+        background-size: cover !important;
+        bottom: 0px;
+    }
+    .owl-carousel{
+        z-index: 99;
+    }
+    .about-us .image-box img , 
+    .about-us .image-box .contnet{
+        width: 90%;
+    }
+    .category .box .image-content{
+        right: 0px;
+    }
+    .ticket-box , 
+    .tickets .ticket-box .content-box .price{
+        flex-direction: column !important;
+    }
+    .ticket-box .image-box , .ticket-box .content-box {
+        width: 100% !important;
+    }
+    .ticket-box .content-box {
+        padding-top: 20px;
+    }
+    .tickets .ticket-box .empty{
+        z-index: 9;
+    }
+    .tickets .ticket-box{
+        padding: 0px 20px 20px 0px;
+    }
+    .tickets .ticket-box .content-box .price .custom-bnt{
+        margin: auto !important;
+    }
+    .ticket-content .button-content .custom-bnt{
+        width: 100%;
+    }
+    .tickets .ticket-box .empty{
+        transform: rotate(0deg);
+        top: 0;
+        left: 0;
+    }
+}
